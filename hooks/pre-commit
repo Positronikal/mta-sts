@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# pre-commit: fast checks (BLOCKING).
+# Content-only repo — no source to lint or format.
+# The MTA-STS policy file is validated by hooks/ci-check.sh at pre-push.
+
+set -e
+
+echo "pre-commit: content-only repo; no source checks configured."
+echo "Pre-commit checks passed."
