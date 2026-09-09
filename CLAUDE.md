@@ -6,7 +6,7 @@ MTA-STS and TLS-RPT policy files for `positronikal.tech`. Served via GitHub Page
 
 ## Contents
 
-- `.well-known/mta-sts.txt` — MTA-STS policy (`mode: testing`; MX = Google Workspace)
+- `.well-known/mta-sts.txt` — MTA-STS policy (`mode: enforce`; MX = Google Workspace; max_age 604800)
 - `CNAME` — custom domain record
 
 ## Operations
